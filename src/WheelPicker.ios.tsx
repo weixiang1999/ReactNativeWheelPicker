@@ -7,7 +7,7 @@ interface Props {
   onItemSelected?: Function;
   disabled?: boolean;
 }
-const WheelPicker: React.FC<Props> = props => {
+const WheelPicker: React.FC<Props> = (props) => {
   const [selectedItem, setSelectedItem] = useState(props.selectedItem || 0);
   const { data, onItemSelected, disabled } = props;
   if (!data || data.length === 0) return null;

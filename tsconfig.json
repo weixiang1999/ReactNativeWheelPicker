@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "target": "es2015",
+    "lib": ["ESNext"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "noUnusedLocals": false,
+    "rootDir": "."
+  },
+  "include": ["index.tsx", "src"]
+}
